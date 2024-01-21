@@ -45,7 +45,7 @@ class DrawerScreen extends StatelessWidget {
               child: SizedBox(
                 height: 60,
                 child: Image.asset(
-                  'assets/images/user.png',
+                  'assets/images/profile.jpg',
                 ),
               ),
             ),
