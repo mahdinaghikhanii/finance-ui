@@ -44,8 +44,11 @@ class DrawerScreen extends StatelessWidget {
               alignment: Alignment.topLeft,
               child: SizedBox(
                 height: 60,
-                child: Image.asset(
-                  'assets/images/profile.jpg',
+                child: ClipRRect(
+                  borderRadius: BorderRadius.circular(50),
+                  child: Image.asset(
+                    'assets/images/profile.jpg',
+                  ),
                 ),
               ),
             ),

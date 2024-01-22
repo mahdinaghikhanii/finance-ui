@@ -43,8 +43,11 @@ class _HomeScreenState extends State<HomeScreen> {
         actions: [
           Padding(
             padding: const EdgeInsets.all(4.0),
-            child: Image.asset(
-              'assets/images/profile.jpg',
+            child: ClipRRect(
+              borderRadius: BorderRadius.circular(50),
+              child: Image.asset(
+                'assets/images/profile.jpg',
+              ),
             ),
           ),
         ],
