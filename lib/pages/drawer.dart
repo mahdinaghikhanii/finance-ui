@@ -16,9 +16,7 @@ class DrawerScreen extends StatelessWidget {
         child: ListView(
           padding: const EdgeInsets.only(left: 25, right: 10),
           children: [
-            SizedBox(
-              height: resHeight * 0.075,
-            ),
+            SizedBox(height: resHeight * 0.075),
             Align(
               alignment: Alignment.topRight,
               child: GestureDetector(
@@ -56,11 +54,11 @@ class DrawerScreen extends StatelessWidget {
               height: resHeight * 0.0175,
             ),
             Text(
-              "Ghulam",
+              "Mahdi",
               style: Theme.of(context).textTheme.headlineSmall,
             ),
             Text(
-              "UX UI Designer",
+              "Flutter developer",
               style: Theme.of(context).textTheme.titleMedium,
             ),
             SizedBox(

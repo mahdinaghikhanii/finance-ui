@@ -29,9 +29,7 @@ class _CardScreenState extends State<CardScreen> {
       body: ListView(
         padding: const EdgeInsets.only(left: 10, right: 10),
         children: [
-          SizedBox(
-            height: resHeight * 0.025,
-          ),
+          SizedBox(height: resHeight * 0.025),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
