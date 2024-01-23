@@ -40,10 +40,8 @@ class _CardScreenState extends State<CardScreen> {
                     "Your Cards",
                     style: Theme.of(context).textTheme.headlineMedium,
                   ),
-                  Text(
-                    "You have 3 active cards",
-                    style: Theme.of(context).textTheme.bodyLarge,
-                  ),
+                  Text("You have 3 active cards",
+                      style: Theme.of(context).textTheme.bodyLarge),
                 ],
               ),
               MaterialButton(
